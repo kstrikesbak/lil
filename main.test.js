@@ -62,6 +62,8 @@ describe('Lil.values', () => {
       next: node2,
     }
 
+
+
     lil.head = node1;
 
     expect(lil.values()).toEqual([15, 5, 3]);
